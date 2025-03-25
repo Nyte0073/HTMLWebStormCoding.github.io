@@ -1,0 +1,61 @@
+
+html, body {
+    font-family: Verdana, serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: darkgrey;
+    border-radius: 10px;
+    font-size: 50px;
+    outline: white solid 9px;
+}
+
+.title_container {
+    padding-top: 2.5%;
+}
+
+section {
+    height: 70%;
+    width: 70%;
+    float: right;
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    background-color: #444242;
+    text-align: center;
+    color: white;
+    margin-top: -0.6%;
+}
+
+.nav_container {
+    height: 100%;
+}
+
+article {
+    height: 70%;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    margin-top: 1.6%;
+    float: left;
+    height: fit-content;
+    margin-left: 200px;
+    margin-right: 200px;
+}
