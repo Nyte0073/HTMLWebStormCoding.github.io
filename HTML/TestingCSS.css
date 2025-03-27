@@ -1,61 +1,100 @@
-
 html, body {
-    font-family: Verdana, serif;
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #0e0e15;
+    font-family: Verdana, serif;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
-header {
+.body_container {
     height: 20%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-color: darkgrey;
+    /*flex-grow: 1;*/
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
     border-radius: 10px;
-    font-size: 50px;
-    outline: white solid 9px;
-}
-
-.title_container {
-    padding-top: 2.5%;
-}
-
-section {
-    height: 70%;
-    width: 70%;
-    float: right;
-}
-
-nav {
-    height: 10%;
-    width: 100%;
-    background-color: #444242;
-    text-align: center;
+    background-color: white;
+    position: relative;
     color: white;
-    margin-top: -0.6%;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: conic-gradient(#ff4525, #00ff99, #006aff, #ff0095, #ff4525);
 }
 
-.nav_container {
-    height: 100%;
+.body_container:hover {
+    padding:0.2%;
 }
 
-article {
-    height: 70%;
-    width: 30%;
-}
-
-ul {
-    list-style-type: none;
+.first_layer {
     height: 100%;
     width: 100%;
+    display: flex;
+    /*flex-grow: 1;*/
+    border-radius: 10px;
+    background-color: #1c1f2b;
+    position: relative;
+    font-size: 30px;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
-li {
-    margin-top: 1.6%;
-    float: left;
-    height: fit-content;
-    margin-left: 200px;
-    margin-right: 200px;
+.first_layer_element {
+    display: flex;
+    align-self: center;
 }
+
+.second_layer {
+    height: 40%;
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #171a22;
+    position: relative;
+    font-size: 30px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin: 40px auto;
+    padding-left: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.third_layer {
+    height:100%;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #1c1f2b;
+    /*background-color: red;*/
+    position: relative;
+    /*align-self: flex-end;*/
+    justify-content: center;
+    translate: -10% -8%;
+    transform: scale(1, 1);
+    transition: 1.5s;
+}
+
+.second_layer:hover {
+    .third_layer {
+        transform: scale(1.5, 1.5);
+        transition: 1.5s;
+    }
+}
+
+.third_layer_element {
+    display: flex;
+    align-self: center;
+    color: white;
+}
+
+/*#171a22*/
+
+
+
+
+
