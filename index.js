@@ -1,1 +1,6 @@
-console.log("Happy Developing")
+
+function something() {
+    console.log("Eww")
+}
+
+something();
