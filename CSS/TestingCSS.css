@@ -14,7 +14,6 @@ html, body {
 
 .body_container {
     height: 20%;
-    /*flex-grow: 1;*/
     display: flex;
     margin: 10px auto;
     width: 90%;
@@ -35,7 +34,6 @@ html, body {
     height: 100%;
     width: 100%;
     display: flex;
-    /*flex-grow: 1;*/
     border-radius: 10px;
     background-color: #1c1f2b;
     position: relative;
@@ -70,9 +68,7 @@ html, body {
     display: flex;
     border-radius: 10px;
     background-color: #1c1f2b;
-    /*background-color: red;*/
     position: relative;
-    /*align-self: flex-end;*/
     justify-content: center;
     translate: -10% -8%;
     transform: scale(1, 1);
@@ -92,7 +88,13 @@ html, body {
     color: white;
 }
 
-/*#171a22*/
+canvas {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    border: 2px solid red;
+}
 
 
 

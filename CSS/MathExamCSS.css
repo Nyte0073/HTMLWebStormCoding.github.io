@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+    font-family: Bebas Neue, sans-serif;
+    background-color: #103744;
+    color: white;
+    overflow-x: hidden;
+    font-weight: normal;
+}
+
+/** {*/
+/*    border: 1px solid white;*/
+/*}*/
+
+.title-container {
+    font-size:60px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3% auto auto;
+}
+
+.title-text-container {
+    display: flex;
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    transition: opacity 1s;
+    opacity: 0;
+    text-decoration: underline;
+}
+
+.heading-container {
+    display: flex;
+    font-size: 35px;
+    text-decoration: inherit;
+    text-align: center;
+    margin: inherit;
+    width: inherit;
+    height: inherit;
+    justify-content: inherit;
+}
+
+.heading-text-container {
+    display: flex;
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    opacity: 0;
+    transition: opacity 1s;
+    text-align: center;
+    margin: inherit;
+}
+
+.next-button-container {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: inherit;
+    margin: auto auto;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.next-button {
+    display: flex;
+    align-self: center;
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #103744FF;
+    font-size: 40px;
+    font-family: inherit;
+    box-sizing: border-box;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-family: "JetBrains Mono", "serif";
+    background-image: url("../CSS/RoboticsShowCaseBackGround.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.title-container {
+    display: flex;
+    font-size: 60px;
+    margin: 2% auto auto;
+    text-align: center;
+    color: white;
+}
+
+.introduction-text-container {
+    display: flex;
+    width: 80%;
+    margin: 2% auto auto;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.text-container {
+    display: flex;
+    margin: 2% auto auto;
+    border: 2px solid white;
+    height: fit-content;
+    width: 80%; 
+    box-sizing: border-box;
+    padding: 2%;
+    font-size: 15px;
+    color: white;
+    line-height: 2;
+}
+
+.second-heading-container {
+    display: flex;
+    margin: 4% auto auto;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 80%;
+    height: fit-content;
+}

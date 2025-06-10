@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fadd55f2-78d2-420c-afaa-bd0893b3ab2b" name="Changes" comment="Committing latest code (March 25th, 2025)">
+    <list default="true" id="fadd55f2-78d2-420c-afaa-bd0893b3ab2b" name="Changes" comment="Committing latest code (March 29th, 2025)">
+      <change afterPath="$PROJECT_DIR$/CSS/DrawingSineWaveCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/MathEditedPicture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/MathExamCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/MathPicture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/RoboticsShowCaseBackGround.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/RoboticsShowcase2ndfile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/RoboticsShowcaseStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/DrawingSineWave.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/MathExamHTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/RoboticsShowcase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/TestingJavaScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/TestingCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/TestingCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/TestingWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/TestingWebsite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,26 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.TestingWebsite.html.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.TestingWebsite.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.TestingJavaScript.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\russe\WebstormProjects\FirstHTMLWebStormProject\JavaScript" />
+      <recent name="C:\Users\russe\WebstormProjects\FirstHTMLWebStormProject\CSS" />
       <recent name="C:\Users\russe\WebstormProjects\FirstHTMLWebStormProject\HTML" />
     </key>
   </component>
@@ -89,7 +106,18 @@
       <workItem from="1743075314055" duration="9207000" />
       <workItem from="1743163617581" duration="4947000" />
       <workItem from="1743272223863" duration="5008000" />
-      <workItem from="1743277809257" duration="1921000" />
+      <workItem from="1743277809257" duration="20280000" />
+      <workItem from="1743603574323" duration="1592000" />
+      <workItem from="1743952140544" duration="1637000" />
+      <workItem from="1744113608125" duration="712000" />
+      <workItem from="1745025100132" duration="4318000" />
+      <workItem from="1746484150175" duration="8030000" />
+      <workItem from="1748470229352" duration="2284000" />
+      <workItem from="1748816012344" duration="563000" />
+      <workItem from="1749056402168" duration="1907000" />
+      <workItem from="1749252778724" duration="248000" />
+      <workItem from="1749415554192" duration="5162000" />
+      <workItem from="1749468151470" duration="23756000" />
     </task>
     <task id="LOCAL-00001" summary="Committing latest code (March 25th, 2025)">
       <option name="closed" value="true" />
@@ -99,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742938840085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Committing latest code (March 29th, 2025)">
+      <option name="closed" value="true" />
+      <created>1743280029469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743280029469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Committing latest code (March 25th, 2025)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing latest code (March 25th, 2025)" />
+    <MESSAGE value="Committing latest code (March 29th, 2025)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing latest code (March 29th, 2025)" />
   </component>
 </project>
